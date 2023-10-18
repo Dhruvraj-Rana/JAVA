@@ -22,7 +22,7 @@ class TemperatureSensor extends Sensor{
         System.out.println("----------------------------------------------TEMP SENSOR-------------------------------------");
         System.out.println("Here is the reading for Temp Sensor:");
         System.out.println("Range:"+"0-"+range+" Cel");
-        System.out.println("Accuracy:"+accuracy);
+        System.out.println("Accuracy:"+accuracy+"%");
         System.out.println("Temperature reading of vehicle:"+tempval+" Cel");
          System.out.println("Feedback:");
         if(tempval>55){
@@ -50,7 +50,7 @@ class speedSensor extends Sensor{
          System.out.println("----------------------------------------------SPEED SENSOR-------------------------------------");
         System.out.println("Here is the reading for Speed Sensor:");
         System.out.println("Range:"+"0-"+range+" Km/hr");
-        System.out.println("Accuracy:"+accuracy);
+        System.out.println("Accuracy:"+accuracy+"%");
         System.out.println("Speed reading of vehicle:"+speed+" Km/hr");
          System.out.println("Feedback:");
         if(speed>100){
@@ -77,7 +77,7 @@ class FuelSensor extends Sensor{
          System.out.println("----------------------------------------------FUEL SENSOR-------------------------------------");
         System.out.println("Here is the reading for Fuel Sensor:");
         System.out.println("Range:"+"0-"+range+" Lt");
-        System.out.println("Accuracy:"+accuracy);
+        System.out.println("Accuracy:"+accuracy+"%");
         System.out.println("Fuel reading of vehicle:"+fuel+" Lt");
          System.out.println("Feedback:");
         if(fuel<5){
